@@ -1,6 +1,6 @@
 # AM-BASIC/42
 
-Um interpretador de linguagem BASIC que leva a sério tanto a história da linguagem quanto os limites que ela nunca precisou testar.
+Um interpretador de linguagem BASIC que leva a sério tanto a história da linguagem quanto os limites que ela nunca precisou testar. Disponível para Windows e Linux.
 
 ## O que é
 
