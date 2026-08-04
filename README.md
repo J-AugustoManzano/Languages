@@ -3,19 +3,17 @@ Este repositório abriga uma pequena coleção de ambientes de linguagens de pro
 
 ## Sobre o repositório
 
-O repositório **Linguagens** reúne projetos voltados ao estudo, projeto
-e implementação de linguagens de programação e seus respectivos
-ambientes de desenvolvimento.
+O repositório **Linguagens** reúne projetos voltados ao estudo e implementação de linguagens de programação clássicas e seus respectivos
+ambientes de desenvolvimento. Eventualmente poderá ser definida nesta coleção projetos próprios de estudo e desenvolvimento.
 
 Entre os projetos desenvolvidos encontram-se:
 
 -   interpretadores;
 -   compiladores;
--   máquinas virtuais;
 -   montadores (assemblers);
 -   analisadores léxicos, sintáticos e semânticos;
 -   bibliotecas de execução (runtime);
--   ferramentas de apoio ao desenvolvimento de linguagens.
+-   bilbiotecas de apoio operacional (propostas próprias).
 
 Os projetos aqui disponibilizados têm diferentes objetivos, abrangendo
 pesquisa, ensino, experimentação e desenvolvimento de tecnologias
