@@ -48,8 +48,8 @@ Para quem quer aprender ou ensinar os fundamentos da programação através de u
 
 ## Documentação
 
-- "HELP <comando>", direto no ambiente interativo, para consulta rápida sem sair da sessão.
-- Livro (manual) em desenvolvimento.
+- HELP <comando>, direto no ambiente interativo, para consulta rápida sem sair da sessão.
+- Livro (manual), em desenvolvimento.
 
 ## Autor
 
