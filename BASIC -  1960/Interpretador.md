@@ -4,7 +4,7 @@ Um interpretador de linguagem BASIC que leva a sério tanto a história da lingu
 
 ## O que é
 
-AM-BASIC/42 é um interpretador de BASIC escrito em Rust, construído em três camadas sobrepostas, cada uma com uma origem e um propósito distintos:
+AM-BASIC/42 é um interpretador dec linguagem BASIC escrito em Rust, construído em três camadas sobrepostas, cada uma com uma origem e um propósito distintos:
 
 - **Núcleo ANSI/ECMA-55**: o "Minimal BASIC", padronizado em 1978. A base formal da linguagem: "PRINT", "LET", "IF/THEN", "FOR/NEXT", "GOTO", "GOSUB", "DIM", "DATA/READ".
 - **Compatibilidade GW-BASIC**: as extensões que a Microsoft consolidou nos anos 1980 e que se tornaram, na prática, um segundo padrão de fato: manipulação rica de string, arquivos, som, formatação de tela, "WHILE/WEND".
