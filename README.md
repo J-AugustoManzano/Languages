@@ -1,4 +1,4 @@
-# Linguagens
+# Languages (em desenvolvimento)
 Este repositório abriga uma pequena coleção de ambientes de linguagens de programação.
 
 ## Sobre o repositório
@@ -52,7 +52,6 @@ Este repositório tem como finalidade:
 -   desenvolver ferramentas para ensino de compiladores e
     interpretadores;
 -   experimentar novos paradigmas de programação;
--   documentar arquiteturas e decisões de projeto;
 -   disponibilizar material técnico para estudantes, pesquisadores e
     desenvolvedores.
 
