@@ -3,7 +3,7 @@ Este repositório abriga uma pequena coleção de ambientes de linguagens de pro
 
 ## Sobre o repositório
 
-O repositório **Linguagens** reúne projetos voltados ao estudo e implementação de linguagens de programação clássicas e seus respectivos
+O repositório **Languages** reúne projetos voltados ao estudo e implementação de linguagens de programação clássicas e seus respectivos
 ambientes de desenvolvimento. Eventualmente poderá ser definida nesta coleção projetos próprios de estudo e desenvolvimento.
 
 Entre os projetos desenvolvidos encontram-se:
