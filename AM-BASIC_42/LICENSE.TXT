@@ -1,0 +1,146 @@
+LICENÇA DE USO E DISTRIBUIÇÃO DE SOFTWARE
+SOFTWARE PROPRIETÁRIO — DISTRIBUIÇÃO GRATUITA
+
+Copyright © 2026 José Augusto Navarro Garcia Manzano
+Todos os direitos reservados.
+
+1. CONCESSÃO DA LICENÇA
+
+O titular dos direitos autorais concede ao usuário uma licença gratuita, não exclusiva e não transferível para utilizar o software exclusivamente na forma executável disponibilizada pelo titular.
+
+Esta licença permite:
+
+a) baixar o software;
+b) instalar e executar o software;
+c) utilizar o software para fins pessoais, educacionais, acadêmicos ou comerciais;
+d) realizar cópias do arquivo executável para fins de backup ou utilização própria;
+e) redistribuir gratuitamente uma cópia integral e não modificada do software, desde que este arquivo de licença e os avisos de direitos autorais sejam mantidos.
+
+2. RESTRIÇÕES
+
+O usuário NÃO está autorizado a:
+
+a) modificar, adaptar, traduzir ou criar obras derivadas do software;
+b) descompilar, desmontar, realizar engenharia reversa ou tentar obter o código-fonte do software, exceto quando e na medida em que tal atividade seja expressamente permitida pela legislação aplicável;
+c) remover, alterar ou ocultar avisos de direitos autorais, titularidade ou licença;
+d) distribuir versões modificadas do software;
+e) redistribuir o software de forma que faça parecer que ele foi desenvolvido ou publicado por outra pessoa ou organização;
+f) vender, sublicenciar, alugar, arrendar ou comercializar o software ou uma cópia dele de forma isolada.
+
+3. CÓDIGO-FONTE
+
+O código-fonte do software não é disponibilizado sob esta licença.
+
+A disponibilização do arquivo executável não concede ao usuário qualquer direito de acesso, obtenção, reprodução ou distribuição do código-fonte.
+
+4. REDISTRIBUIÇÃO
+
+É permitida a redistribuição gratuita do arquivo executável original e não modificado, desde que:
+
+a) o software seja distribuído integralmente;
+b) este arquivo de licença seja mantido;
+c) os avisos de direitos autorais sejam preservados;
+d) não seja cobrada qualquer quantia especificamente pelo software ou pela cópia dele;
+e) não seja atribuída a terceiros a autoria ou titularidade do software.
+
+5. PROPRIEDADE INTELECTUAL
+
+O software, incluindo seu código-fonte, código objeto, estrutura, organização, documentação, textos, elementos gráficos e demais componentes protegidos por direitos autorais, permanece de propriedade de seu titular.
+
+Esta licença concede apenas os direitos expressamente estabelecidos neste documento. Nenhum outro direito é concedido por implicação, tolerância ou de qualquer outra forma.
+
+6. AUSÊNCIA DE GARANTIA
+
+O SOFTWARE É FORNECIDO "COMO ESTÁ" ("AS IS"), SEM GARANTIAS DE QUALQUER NATUREZA, EXPRESSAS OU IMPLÍCITAS, NA MÁXIMA EXTENSÃO PERMITIDA PELA LEGISLAÇÃO APLICÁVEL.
+
+O TITULAR NÃO GARANTE QUE O SOFTWARE FUNCIONARÁ SEM INTERRUPÇÕES, ERROS OU FALHAS, NEM QUE SERÁ ADEQUADO A UMA FINALIDADE ESPECÍFICA.
+
+7. LIMITAÇÃO DE RESPONSABILIDADE
+
+NA MÁXIMA EXTENSÃO PERMITIDA PELA LEGISLAÇÃO APLICÁVEL, O TITULAR DOS DIREITOS AUTORAIS NÃO SERÁ RESPONSÁVEL POR DANOS DIRETOS, INDIRETOS, INCIDENTAIS, ESPECIAIS OU CONSEQUENCIAIS DECORRENTES DO USO OU DA IMPOSSIBILIDADE DE USO DO SOFTWARE.
+
+8. LEGISLAÇÃO APLICÁVEL
+
+Esta licença deverá ser interpretada de acordo com a legislação aplicável, sem prejuízo dos direitos que não possam ser legalmente excluídos ou limitados por contrato ou licença.
+
+9. RESERVA DE DIREITOS
+
+Todos os direitos não expressamente concedidos nesta licença permanecem reservados ao titular dos direitos autorais.
+
+FIM DA LICENÇA
+
+---
+
+SOFTWARE USE AND DISTRIBUTION LICENSE
+PROPRIETARY SOFTWARE — FREE DISTRIBUTION
+
+Copyright © 2026 José Augusto Navarro Garcia Manzano
+All rights reserved.
+
+1. LICENSE GRANT
+
+The copyright holder grants the user a free, non-exclusive, non-transferable license to use the software solely in the executable form provided by the copyright holder.
+
+This license permits the user to:
+
+a) download the software;
+b) install and execute the software;
+c) use the software for personal, educational, academic, or commercial purposes;
+d) make copies of the executable file for backup or personal use;
+e) freely redistribute an unmodified and complete copy of the software, provided that this license and all copyright notices are retained.
+
+2. RESTRICTIONS
+
+The user is NOT authorized to:
+
+a) modify, adapt, translate, or create derivative works of the software;
+b) decompile, disassemble, reverse engineer, or attempt to obtain the source code of the software, except to the extent that such activity is expressly permitted by applicable law;
+c) remove, alter, or conceal copyright, ownership, or license notices;
+d) distribute modified versions of the software;
+e) distribute the software in a manner that suggests that it was developed or published by another person or organization;
+f) sell, sublicense, lease, rent, or otherwise commercially exploit the software or a copy thereof on a standalone basis.
+
+3. SOURCE CODE
+
+The source code of the software is not provided under this license.
+
+The availability of the executable file does not grant the user any right to access, obtain, reproduce, or distribute the source code.
+
+4. REDISTRIBUTION
+
+Free redistribution of the original and unmodified executable file is permitted provided that:
+
+a) the software is distributed in its entirety;
+b) this license is retained;
+c) all copyright notices are preserved;
+d) no fee is charged specifically for the software or a copy thereof;
+e) authorship or ownership of the software is not attributed to any third party.
+
+5. INTELLECTUAL PROPERTY
+
+The software, including its source code, object code, structure, organization, documentation, text, graphical elements, and other copyright-protected components, remains the property of its copyright holder.
+
+This license grants only the rights expressly stated in this document. No other rights are granted by implication, tolerance, or otherwise.
+
+6. DISCLAIMER OF WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW.
+
+THE COPYRIGHT HOLDER DOES NOT WARRANT THAT THE SOFTWARE WILL OPERATE WITHOUT INTERRUPTION, ERRORS, OR FAILURES, OR THAT IT WILL BE SUITABLE FOR ANY PARTICULAR PURPOSE.
+
+7. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE COPYRIGHT HOLDER SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING FROM THE USE OF OR INABILITY TO USE THE SOFTWARE.
+
+8. GOVERNING LAW
+
+This license shall be interpreted in accordance with applicable law, without prejudice to rights that cannot legally be excluded or limited by contract or license.
+
+9. RESERVATION OF RIGHTS
+
+All rights not expressly granted under this license are reserved by the copyright holder.
+
+---
+
+END OF LICENSE
+
