@@ -1,0 +1,50 @@
+PROGRAM FILE 138: COUPON COLLECTOR TEST OF RND FUNCTION.
+    ANSI STANDARD 8.4
+
+SECTION 138.1: COUPON COLLECTOR TEST OF RND FUNCTION.
+
+THIS PROGRAM TESTS HOW MANY RANDOM NUMBERS MUST BE GENERATED
+(UP TO A MAXIMUM) TO GET AT LEAST ONE OF EACH TYPE. A TYPE IS
+DETERMINED BY WHICH FRACTION OF THE 0 - 1 SEGMENT THE VALUE
+OF THE NUMBER FALLS WITHIN. CHI-SQUARE IS COMPUTED AND
+DISPLAYED TO SEE WHETHER IT IS COMPATIBLE WITH THE
+EXPECTED DISTRIBUTION FOR UNIFORM RANDOM NUMBERS.
+
+***** THIS TEST IS INFORMATIVE ONLY *****
+
+                 BEGIN TEST
+
+SEARCH LENGTH   ACTUAL COUNT    EXPECTED COUNT
+
+ 5               69              76.8 
+ 6               137             153.6 
+ 7               208             199.68 
+ 8               236             215.04 
+ 9               201             209.01888 
+ 10              182             190.95552 
+ 11              158             167.6329 
+ 12              158             143.27808 
+ 13              118             120.22599 
+ 14              114             99.583132 
+ 15              85              81.724008 
+ 16              68              66.620149 
+ 17              54              54.043261 
+ 18              35              43.683925 
+ 19              35              35.217142 
+ 20              24              28.33588 
+ 21              22              22.766069 
+ 22              15              18.271301 
+ 23              14              14.652119 
+ 24              20              11.742746 
+>= 25            47              47.128903 
+
+FOR 20 D.F., SHOULD HAVE 10.8508 <= CHI-SQ <= 31.4104
+(5% TAIL AT EACH END.)
+
+ACTUAL CHI-SQ =  18.896284 
+
+*** INFORMATIVE TEST PASSED ***
+
+                 END TEST
+
+END PROGRAM 138
