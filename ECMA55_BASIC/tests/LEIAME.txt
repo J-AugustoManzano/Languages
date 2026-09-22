@@ -1,0 +1,61 @@
+Testes de conformidade NBS
+==========================
+
+Os arquivos "Pxxx.BAS", "Pxxx.ok" e "Pxxx.eok" neste local vêm do
+pacote "bas55" (ECMA-55 Minimal BASIC System), de Jorge Giner
+Cordero, versão 2.0 sob licença MIT e disponibilizados em
+https://jorgicor.niobe.org/bas55. Ver "COPYING" do pacote original.
+
+Os programas "Pxxx.BAS" em si são a bateria de testes formais de
+conformidade da NBS (National Bureau of Standards, hoje NIST),
+publicada em 1978 nos relatórios NBSIR 78-1420-1 a -4 — texto de
+domínio público do governo dos EUA. Foram escritos e mantidos ao
+longo dos anos por John Gatewood Ham, autor do "ECMA-55 Minimal
+BASIC Compiler" —
+http://buraphakit.sourceforge.net/BASIC.shtml, com correções
+adicionais de Emmanuel Roche e do próprio Jorge Giner Cordero.
+
+Os arquivos ".ok" (saída esperada) e ".eok" (saída de erro esperada)
+são gerados pela própria implementação do bas55. Não são o gabarito
+oficial da NBS (que exigiria julgamento humano linha a linha, seguindo
+o manual original), mas uma implementação madura e testada há anos
+contra esses mesmos programas.
+
+
+Como este projeto usa esses testes
+----------------------------------
+
+"tests/test_nbs.cpp" executa cada "Pxxx.BAS` pelo interpretador e
+compara a saída padrão com "Pxxx.ok". Quando um erro é esperado
+("Pxxx.eok" não vazio), o texto exato da mensagem de erro não é
+comparado, só é realizado se ocorreu erro ou não. Mensagens de
+erro são "implementation-defined" (Apêndice 4 da norma ECMA-55), 
+então o texto padrão do bas55 não bate por definição com este
+projeto.
+
+"make nbs" compila e roda essa bateria.
+
+
+Divergências conhecidas e deliberadas em relação ao bas55
+---------------------------------------------------------
+
+Alguns testes falham propositalmente, porque foi tomado como decisão
+deste projeto seguir um caminho diferente do bas55 em pontos que a 
+norma deixa em aberto:
+
+- Minúsculas no código-fonte ("P204", "P205"): a norma define
+  "letter" como só A-Z maiúsculo. O bas55 rejeita minúsculas fora do
+  modo editor; este projeto aceita e normaliza para maiúsculas.
+- Sinal unário depois de operador ("P038", "pow", ex.: "4^-2",
+  "1+-3"): o próprio manual do bas55 admite que isso é uma extensão
+  dele, "não exigida nem aceita pela norma". Este projeto, sem
+  nenhum acréscimo além da norma, rejeita.
+- Variável não inicializada ("P023", "P028"): o bas55 (fora do modo
+  debug) assume zero/string vazia; este projeto trata como erro fatal,
+  seguindo a recomendação do texto da norma (seção 7.6).
+
+As demais falhas restantes (formatação numérica em casos extremos de
+precisão, todas em funções que a própria NBS rotula como "informative
+only, since the ANSI standard does not mandate any accuracy for
+supplied-functions") são ruído de ponto flutuante entre
+implementações, não lacunas de conformidade.
