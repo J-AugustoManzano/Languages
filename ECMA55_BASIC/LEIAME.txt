@@ -1,0 +1,103 @@
+ECMA-55 BASIC [AM-42] - v0.1.11.2609
+(c) 2016-2018 (2026 - Revisado)
+Augusto Manzano - Todos os direitos reservados
+==============================================
+
+
+O interpretador "ecma55basic" escrito em linguagem C++ adere a norma 
+ECMA-55 que determina os recursos mínimos necessários a linguagem
+BASIC publicada por volta de 1965, sem nenhum acréscimo além do que 
+a norma define.
+
+Este e um projeto didático, destinado ao uso em sala de aula com o
+objetivo de servir como referencia exata do que era, histórica
+e formalmente, a linguagem BASIC original sem os desvios e extensões 
+que cada fabricante de hardware ou mesmo do software da linguagem
+acrescentou ao longo do tempo.
+
+
+Estrutura do projeto
+--------------------
+
+ecma55-basic/
+├── Makefile    Build (make / make run / make clean)
+├── LEIAME.txt  Este arquivo em português
+├── README.txt  Este arquivo em inglês
+├── src/        Código-fonte do interpretador
+├── docs/       Documentação da linguagem em português e inglês
+├── examples/   Programas de exemplo (cobertura de 100% da norma)
+└── tests/      Testes automatizados
+
+
+Compilação
+----------
+
+Requer um compilador C++17 (g++ ou compatível) com "make/mingw32-make".
+
+>>> LINUX
+
+make        - compila o interpretador
+make run    - compila (se preciso) e abre o ambiente interativo
+make test   - compila e roda as três suítes de teste próprias
+make nbs    - compila e roda a bateria de conformidade NBS (tests/nbs/)
+make clean  - remove os arquivos gerados
+
+>>> WINDOWS
+
+mingw32-make        - compila o interpretador
+mingw32-make run    - compila (se preciso) e abre o ambiente interativo
+mingw32-make test   - compila e roda as três suítes de teste próprias
+mingw32-make nbs    - compila e roda a bateria de conformidade NBS (tests/nbs/)
+mingw32-make clean  - remove os arquivos gerados
+
+
+
+Execução
+--------
+
+./ecma55basic                - abre o ambiente interativo (REPL), em inglês
+./ecma55basic --pt           - abre o ambiente em português
+./ecma55basic programa.bas   - executa um programa direto, sem abrir o ambiente
+
+
+Documentação e exemplos
+-----------------------
+
+> "docs"      - manual da linguagem em inglês e português.
+> "examples"  - 12 programas de "olá, mundo" ao "Crivo de Eratóstenes", 
+                cobrindo cada recurso da linguagem.
+
+
+Estado atual deste projeto
+--------------------------
+
+- Projeto desenvolvido entre os anos de 2016 e 2018 em horas vagas.
+- Esquecido por anos em um dos diretórios de vários outros projetos.
+- Resgatado e revisado para publicação em 2026
+- Lexer (Camada 1), parser (Camada 2) e interpretador (Camada 3)
+  completos, mais o ambiente interativo (REPL), totalmente bilingue
+  via "LOCALIZE PT|EN", HELP e TODAS as mensagens de erro do
+  lexer/parser/interpretador seguem o idioma escolhido. "HELP <comando>" 
+  explica cada um dos 20 comandos e 11 funções (descrição, sintaxe, 
+  exemplo). "ecma55basic" sem argumento abre o ambiente onde:
+  RUN/LIST/NEW/LOAD/SAVE/LOCALIZE/SYSTEM/HELP, podem ser executados
+  imediatamente; com umc arquivo, executa direto o programa e com as flags
+  "--pt" ou "--en" escolhem o idioma inicial de acesso nos dois modos. 
+- "make test" executa as três suítes próprias (192 testes: 63 lexer + 91
+  parser + 38 interpretador). 
+- "make nbs" executa a bateria de conformidade formal da NBS (174/205 
+  testes batendo com o bas55, os 31 testes restantes são 16 dependentes 
+  de RND, mais divergências deliberadas e ruido de precisão numérica 
+  documentados em "tests/nbs/LEIAME.txt".
+- Limitações conhecidas: formatação de números extremos no PRINT pode
+  não bater caractere a caractere com a norma em casos raros (ruido de
+  ponto flutuante entre implementações, não um algoritmo errado); modo
+  imediato do REPL e RUN não compartilham variáveis entre si.
+
+
+Autoria
+-------
+
+(c) 2016-2018 (2026 - Revised)
+Augusto Manzano 
+Todos os direitos reservados.
